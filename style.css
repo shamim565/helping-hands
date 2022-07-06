@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.heading
+{
+    background:  url(images/donation7.jpg) rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.heading-text{
+    padding-top: 12%;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+.heading-text h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.heading-text p{
+    padding: 0 15%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.link-btn{
+    padding-top: 20px;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;    font-weight: 700;
+}
+
+.black-text{
+    color: black;
+    text-align: center;
+}
+.black-text h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.black-text p{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400
+}
+.flexible-container{
+    display: flex; 
+    justify-content: center;
+}
+.designed-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;;
+    height: 123px;
+    width: 135px;
+   color: #707070;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+#selected{
+    border: 2px solid tomato;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+.amount-choice{
+    display: flex;
+    border: none;
+    justify-content: center;
+}
+.amount-box{
+    width: 900px;
+    outline: 0;
+    height: 50px;
+    border-width: 0 0 2px;
+    border-color: #DADADA;
+    text-align: center;
+    color:  #B3B3B3;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.plan-sections{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.box-design{
+    height: 320px;
+    width: 340px;
+    margin: 40px 10px;
+    padding:0 20px;
+}
+.box-design img{
+    margin-top: 55px;
+}
+.box-design p{
+    color: #707070;
+}
+#plan-1{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+#plan-2{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+#plan-3{
+    background-color: #fff4d6;
+    border-radius: 5px;
+}
+.little-margin{
+margin-top: 10px;
+}
