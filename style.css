@@ -190,3 +190,35 @@ footer{
 footer p{
     color: white;
 }
+.need-help{
+    margin-top: 100px;
+}
+.flexible{
+    display: flex;
+    justify-content: center;
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+}
+.half-width img{
+width: 85%;
+height: 320px;
+border-radius: 5px;
+}
+.margin-50{
+    margin-top: 80px;
+}
+.half-width h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+
+}
+.half-width p{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
